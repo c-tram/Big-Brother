@@ -1,0 +1,8 @@
+Error loading MLB data: Invalid field name(s) for model Team: 'city', 'founded_year', 'is_active', 'primary_color', 'secondary_color'.
+MLB API request successful: https://statsapi.mlb.com/api/v1/teams
+MLB API request successful: https://statsapi.mlb.com/api/v1/venues
+MLB API request successful: https://statsapi.mlb.com/api/v1/schedule
+MLB API request successful: https://statsapi.mlb.com/api/v1/teams
+MLB API request successful: https://statsapi.mlb.com/api/v1/venues
+MLB API request successful: https://statsapi.mlb.com/api/v1/schedule
+MLB API request successful: https://statsapi.mlb.com/api/v1/teams

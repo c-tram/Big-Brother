@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "MLB Analytics",
+    "slug": "mlb-analytics-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "mlb-analytics",
+    "platforms": ["ios", "android", "web"],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1976d2"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.coletrammell.mlbanalytics",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "UIBackgroundModes": ["background-fetch"],
+        "NSUserTrackingUsageDescription": "This app uses tracking to provide personalized baseball analytics and improve user experience."
+      }
+    },
+    "android": {
+      "package": "com.coletrammell.mlbanalytics",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1976d2"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "WAKE_LOCK"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-secure-store"
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      },
+      "apiBaseUrl": "http://10.0.0.22:8000",
+      "djangoApiUrl": "http://10.0.0.22:8000",
+      "appName": "MLB Analytics",
+      "appVersion": "1.0.0"
+    }
+  }
+}
